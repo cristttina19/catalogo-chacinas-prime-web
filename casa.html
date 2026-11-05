@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo Chacinas Prime</title>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Chacinas Prime">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Catálogo Chacinas Prime">
+  <meta property="og:description" content="Chacinas y productos gastronómicos de máxima calidad: Casalba, Obach, Pago de la Jaraba y Rafa Gorrotxategi.">
+  <!-- When the site is published, write the full address here (e.g. https://catalogo.chacinasprime.com/img/vista-previa.jpg):
+       WhatsApp and other apps only show the preview with a full address. -->
+  <meta property="og:image" content="https://cristttina19.github.io/catalogo-chacinas-prime-web/img/vista-previa.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Chacinas Prime · lo bien hecho, en estado prime">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/logos/favicon.png">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="index.html" title="Volver al inicio"><img src="img/logos/chacinas-prime-cabecera.png" alt="Chacinas Prime"></a>
+      <nav id="house-nav" aria-label="Casas y contacto"></nav>
+    </div>
+  </header>
+
+  <section class="house-hero">
+    <div class="wrap">
+      <div class="logo"><img id="house-logo" alt=""></div>
+      <div>
+        <h1 id="house-name"></h1>
+        <div class="tagline" id="house-tagline"></div>
+        <p class="intro" id="house-intro"></p>
+      </div>
+      <div class="photo"><img id="house-photo" alt=""></div>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="wrap">
+      <div class="chips" id="chips" aria-label="Familias"></div>
+      <input class="search" id="search" type="search" placeholder="Buscar producto…" aria-label="Buscar producto">
+    </div>
+  </div>
+
+  <main class="wrap" id="categories"></main>
+  <p class="empty-search wrap" id="empty-search">No hay productos que coincidan con la búsqueda.</p>
+
+  <dialog id="detail">
+    <button class="close" id="detail-close" aria-label="Cerrar">×</button>
+    <div class="detail">
+      <div class="photo" id="detail-photo"><img alt=""></div>
+      <div class="info">
+        <div class="eyebrow" id="detail-category"></div>
+        <h2 id="detail-name"></h2>
+        <p id="detail-description"></p>
+        <table>
+          <thead><tr><th>Formato</th><th>Peso / tamaño</th><th>Caja</th></tr></thead>
+          <tbody id="detail-formats"></tbody>
+        </table>
+        <p class="contact-note">Consulta precios y disponibilidad con tu comercial de Chacinas Prime.</p>
+        <a class="btn btn-whatsapp" id="detail-whatsapp" href="#" target="_blank" rel="noopener">Pedir información por WhatsApp</a>
+      </div>
+    </div>
+  </dialog>
+
+  <footer>
+    <div class="wrap">
+      <img src="img/logos/chacinas-prime-transparente.png" alt="Chacinas Prime">
+      <span class="links"><a href="index.html">Volver al inicio</a> <a href="contacto.html">Contacto</a> <a href="aviso-legal.html">Aviso legal</a></span>
+    </div>
+  </footer>
+
+  <script src="js/productos.js"></script>
+  <script src="js/catalogo.js"></script>
+  <script>renderHouse();</script>
+</body>
+</html>
