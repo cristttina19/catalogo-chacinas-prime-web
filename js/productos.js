@@ -25,7 +25,12 @@ window.CATALOGO = [
               {
                 "label": "Deshuesado",
                 "size": "4–6 kg",
-                "box": "C/1-2"
+                "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "La joya de la dehesa: cerdos de raza 100 % ibérica alimentados con bellota en libertad. Piezas escasas y especiales, con unos 48 meses de curación en secadero natural."
@@ -38,12 +43,17 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "8,5–10 kg",
-                "box": "C/1-2"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesado",
                 "size": "5–6,5 kg",
-                "box": "C/1-2"
+                "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Las joyas de la bodega de Casalba: jamones de bellota que condensan su plenitud tras 5 años de curado y afinado. La grasa veteada que aporta el cruce y la vida al aire libre potencian su sabor."
@@ -56,12 +66,17 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "4,5–6 kg",
-                "box": "C/1"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesada",
                 "size": "2,5–3,5 kg",
                 "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborada con la pata delantera del animal, una pieza más pequeña que el jamón, tierna y de gran sabor. Cerdos de raza 100 % ibérica alimentados con bellota en libertad."
@@ -74,31 +89,41 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "4,5–6 kg",
-                "box": "C/1"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesada",
                 "size": "2,5–4 kg",
                 "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/20"
               }
             ],
             "story": "Elaborada con la pata delantera del animal, más pequeña que el jamón, tierna y de gran sabor. Cerdos alimentados con bellota en libertad; la grasa veteada que aporta el cruce potencia el sabor."
           },
           {
             "name": "Caña de lomo de bellota ibérico",
-            "description": "Raza ibérica 50 %. 120–150 días de curación.",
+            "description": "100% raza ibérica. 120–150 días de curación.",
             "image": "img/productos/casalba/cana-de-lomo-de-bellota-iberico.webp",
             "formats": [
               {
                 "label": "Pieza",
                 "size": "1,1–1,7 kg",
                 "box": "C/5 o C/10"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborada de manera artesanal: las piezas se masajean con la sal y, una vez adobadas, se reparten a mano los granos de pimienta negra. Embuchada en tripa natural, secado con brasero de leña de encina y más de cuatro meses en secadero natural. Sabor equilibrado, con el toque justo de pimienta."
           },
           {
-            "name": "Lomito ibérico de bellota",
+            "name": "Lomito ibérico de bellota (presa)",
             "description": "120 días de curación.",
             "image": "img/productos/casalba/lomito-iberico-de-bellota.webp",
             "formats": [
@@ -106,6 +131,11 @@ window.CATALOGO = [
                 "label": "Pieza",
                 "size": "350–550 g",
                 "box": "C/20-22"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborado con la presa (también llamada «bola»), embuchada en tripa natural, secado con brasero de leña de encina y más de cuatro meses de curación en secadero natural. Muy tierno y sabroso, con el toque justo de pimienta… y nada más."
@@ -119,6 +149,11 @@ window.CATALOGO = [
                 "label": "Pieza",
                 "size": "400–600 g",
                 "box": "C/18-20"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborada con la pieza llamada cabecero o aguja, embuchada en tripa natural, secado con brasero de leña de encina y más de cuatro meses de curación en secadero natural."
@@ -132,6 +167,11 @@ window.CATALOGO = [
                 "label": "Cular",
                 "size": "1,2–1,7 kg",
                 "box": "C/4 o C/8"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborado con los mejores magros de bellota y piezas nobles (secreto, presa y aguja), en parte picados a mano. De corte espectacular y con el picante inconfundible del pimentón de la Vera. Embutido en tripa natural, secado con brasero de leña de encina y 5–6 meses en secadero natural."
@@ -158,6 +198,11 @@ window.CATALOGO = [
                 "label": "Cular",
                 "size": "1,2–1,7 kg",
                 "box": "C/4 o C/8"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborado con los mejores magros de bellota y solomillo. Tierno, con el toque justo de pimienta negra seleccionada. Embutido en tripa natural y más de cinco meses en secadero natural. Perfecto para tablas."
@@ -210,6 +255,11 @@ window.CATALOGO = [
                 "label": "Cular",
                 "size": "0,9–1,1 kg",
                 "box": "C/8"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/20"
               }
             ],
             "story": "Morcilla curada de estilo ibérico: se elabora como el chorizo (magros de bellota, secreto, presa y aguja, picados a mano), pero en el adobo el agua se sustituye por sangre de cerdo, que le da su color y sabor. Tripa natural, secado con brasero de leña de encina y más de cuatro meses en secadero natural."
@@ -249,6 +299,11 @@ window.CATALOGO = [
                 "label": "Pieza",
                 "size": "3–3,5 kg",
                 "box": "C/2 o C/3"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/25"
               }
             ],
             "story": "Pieza de la panza del cerdo, muy grasa en el ibérico. Se pinta con adobo de pimentón y ajo y se cura en secadero natural. La panceta más buscada por los profesionales de la gastronomía."
@@ -262,6 +317,11 @@ window.CATALOGO = [
                 "label": "Pieza",
                 "size": "0,8–1,2 kg",
                 "box": "C/8-10"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/20"
               }
             ],
             "story": "La parte grasa del cuello del animal, pintada con adobo de pimentón y ajo y curada en secadero natural."
@@ -306,12 +366,17 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "8,5–10 kg",
-                "box": "C/1-2"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesado",
                 "size": "5–6,5 kg",
-                "box": "C/1-2"
+                "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "De cerdos con un 50 % de raza ibérica criados al aire libre y alimentados con piensos naturales (cereales). 36–42 meses de curación."
@@ -324,7 +389,7 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "5,5–6,5 kg",
-                "box": "C/1"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesada",
@@ -400,17 +465,22 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "8–12 kg",
-                "box": "C/1-2"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesado",
                 "size": "5,5–7 kg",
-                "box": "C/1-2"
+                "box": "C/2"
               },
               {
                 "label": "Deshuesado limpio",
                 "size": "5–5,5 kg",
-                "box": "C/1-2"
+                "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/40"
               }
             ],
             "story": "Jamón Gran Reserva de cerdos de cruce (Duroc, Landrace, Large White): piezas grasas de sabor dulce y más de 24 meses de curación. También disponible ahumado con leña de encina en los secaderos naturales con chimenea de Casalba."
@@ -444,8 +514,8 @@ window.CATALOGO = [
         ]
       },
       {
-        "name": "Cecinas · jamón de buey",
-        "slug": "cecinas-jamon-de-buey",
+        "name": "Cecinas",
+        "slug": "cecinas",
         "products": [
           {
             "name": "Cecina de Black Angus",
@@ -453,9 +523,19 @@ window.CATALOGO = [
             "image": "img/productos/casalba/cecina-de-angus-cruzado-con-wagyu.webp",
             "formats": [
               {
-                "label": "Pieza",
-                "size": "3–4 kg",
+                "label": "Contra",
+                "size": "3,5–4,5 kg",
                 "box": "C/2"
+              },
+              {
+                "label": "Limpia y pulida",
+                "size": "2,5–3,5 kg",
+                "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/40"
               }
             ],
             "story": "Cecina de vacuno Black Angus, curada en sal y ligeramente ahumada con leña de encina. Como toda cecina de Casalba, se elabora con la «contra» de la pata trasera y pasa mucho tiempo en secadero y bodega hasta lograr su textura marmórea."
@@ -466,9 +546,19 @@ window.CATALOGO = [
             "image": "img/productos/casalba/cecina-de-wagyu.webp",
             "formats": [
               {
-                "label": "Pieza",
+                "label": "Contra",
+                "size": "4–5 kg",
+                "box": "C/2"
+              },
+              {
+                "label": "Limpia y pulida",
                 "size": "3–4 kg",
                 "box": "C/2"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/30"
               }
             ],
             "story": "Elaborada con la «contra» de la pata trasera de vacuno Wagyu seleccionado de las mejores granjas de Australia y EE. UU. Sal, un toque de humo de encina y mucho tiempo en secadero y bodega, para una textura marmórea y tierna y un sabor suave y exquisito."
@@ -479,12 +569,17 @@ window.CATALOGO = [
             "image": "img/productos/casalba/cecina-de-wagyu-kobe-japon.webp",
             "formats": [
               {
-                "label": "Pieza",
-                "size": "4,5–6 kg",
+                "label": "Tapa, contra, babilla o redondo",
+                "size": "2,5–5,5 kg",
                 "box": "C/1"
+              },
+              {
+                "label": "Loncheado (sobre)",
+                "size": "100 g",
+                "box": "C/20"
               }
             ],
-            "story": "Cecina de Wagyu japonés de pura raza Tajima. Una pieza excepcional con 24–36 meses de curación."
+            "story": "Cecina de Wagyu japonés de pura raza Tajima. Una pieza excepcional con 24–36 meses de curación. Se puede elegir la pieza: tapa, contra, babilla o redondo."
           }
         ]
       },
@@ -526,42 +621,57 @@ window.CATALOGO = [
         "products": [
           {
             "name": "Jamón cocido ibérico",
-            "description": "En mitades.",
+            "description": "Pieza de 10 kg, entera o partida en 2 mitades de 5 kg. Al vacío.",
             "image": "img/productos/casalba/jamon-cocido-iberico.webp",
             "formats": [
               {
-                "label": "Mitades",
+                "label": "Pieza entera",
                 "size": "10 kg",
                 "box": "C/1"
+              },
+              {
+                "label": "En 2 mitades",
+                "size": "10 kg",
+                "box": "C/2 mitades"
               }
             ],
-            "story": "Jamón cocido elaborado con la pata trasera del cerdo ibérico, especiado y cocido. Se sirve en mitades de unos 10 kg, ideal para loncheado en charcutería."
+            "story": "Jamón cocido elaborado con la pata trasera del cerdo ibérico, especiado y cocido. Pieza de unos 10 kg al vacío, entera o partida en dos mitades de 5 kg, ideal para loncheado en charcutería."
           },
           {
             "name": "Galantina ibérica (Secpresata)",
-            "description": "Con secreto y presa ibéricos. En mitades.",
+            "description": "Con secreto y presa ibéricos. Pieza de 6 kg, entera o en 2 mitades de 3 kg. Al vacío.",
             "image": "img/productos/casalba/galantina-iberica.webp",
             "formats": [
               {
-                "label": "Mitades",
+                "label": "Pieza entera",
                 "size": "6 kg",
                 "box": "C/1"
+              },
+              {
+                "label": "En 2 mitades",
+                "size": "6 kg",
+                "box": "C/2 mitades"
               }
             ],
             "story": "Fiambre cocido que combina cortes de bellota (panceta, carrillada, aguja, morrillo) con secreto, presa y solomillo ibéricos, especiados y cocidos. Al cortarlo se aprecian los distintos cortes en una textura suave y marmolada."
           },
           {
             "name": "Mortadela de secreto ibérico y trufa",
-            "description": "Mortadela de secreto ibérico con trufa.",
+            "description": "Con trufa. Pieza de 9 kg, entera o en 2 mitades. Al vacío.",
             "image": null,
             "formats": [
               {
-                "label": "Pieza",
+                "label": "Pieza entera",
                 "size": "9 kg",
                 "box": "C/1"
+              },
+              {
+                "label": "En 2 mitades",
+                "size": "9 kg",
+                "box": "C/2 mitades"
               }
             ],
-            "story": "Mortadela ibérica trufada elaborada con secreto ibérico. Se sirve en mitades de unos 9 kg."
+            "story": "Mortadela ibérica trufada elaborada con secreto ibérico. Pieza de unos 9 kg al vacío, entera o partida en dos mitades."
           },
           {
             "name": "Cabeza de jabalí ibérica",
@@ -571,33 +681,25 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "2 kg",
-                "box": "C/3"
+                "box": "C/2-3"
               }
             ],
             "story": "Fiambre tradicional elaborado con carne de la cabeza del cerdo ibérico, cocida y prensada, que al cortarse muestra su típico dibujo en mosaico."
           },
           {
-            "name": "Pastrami",
-            "description": "Pastrami de vacuno.",
-            "image": null,
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "6 kg",
-                "box": "C/1"
-              }
-            ],
-            "story": "Pastrami de vacuno: carne curada, especiada y cocida al estilo de la charcutería de Nueva York. Perfecto para bocadillos y sándwiches."
-          },
-          {
             "name": "Pastrami de Wagyu (brisket)",
-            "description": "Pastrami de pecho de Wagyu.",
+            "description": "Pastrami de pecho de Wagyu. Pieza de 3 kg, entera o en 2 mitades.",
             "image": null,
             "formats": [
               {
-                "label": "Pieza",
+                "label": "Pieza entera",
                 "size": "3 kg",
                 "box": "C/1"
+              },
+              {
+                "label": "En 2 mitades",
+                "size": "3 kg",
+                "box": "C/2 mitades"
               }
             ],
             "story": "Pastrami elaborado con el pecho (brisket) de vacuno Wagyu, curado, especiado y cocido."
@@ -644,6 +746,54 @@ window.CATALOGO = [
         "slug": "embutidos-curados",
         "products": [
           {
+            "name": "Longaniza extra de payés",
+            "description": "Paletilla de cerdo con un punto de grasa.",
+            "image": "img/productos/obach/longaniza-extra-de-payes.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "450 g",
+                "box": "C/7"
+              }
+            ],
+            "story": "Paletilla de cerdo con un punto de grasa de jamón, tripa natural de cerdo, el punto justo de sal y pimienta y una curación larga (30 días más 15 de bodega): uno de los productos más apreciados del cerdo.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Longaniza chafada de montaña",
+            "description": "Paletilla de las madres, tripa natural.",
+            "image": "img/productos/obach/longaniza-chafada-de-montana.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "480 g",
+                "box": "C/7"
+              }
+            ],
+            "story": "Siguiendo la fórmula de los tatarabuelos de la familia a principios del siglo XX, se eligen las carnes más magras de los cerdos más grandes (paletilla de las madres), que le dan un tono más oscuro y un sabor único. Tripa natural; 40 días de curación más 15 de bodega.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Longaniza chafada con flora",
+            "description": "Longaniza chafada florecida, tripa natural.",
+            "image": "img/productos/obach/longaniza-chafada-con-flora.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "470 g",
+                "box": "C/7"
+              }
+            ],
+            "story": "Longaniza aplanada («chafada») con su flor natural, de paletilla de cerdo con un punto de grasa de jamón, en tripa natural de las madres. 30 días de curación más 15 de bodega.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
             "name": "Fuet extra",
             "description": "Paletilla, magro de panceta y tocino. Tripa natural.",
             "image": "img/productos/obach/fuet-extra.webp",
@@ -676,17 +826,63 @@ window.CATALOGO = [
             ]
           },
           {
-            "name": "Fuet un punto picante",
-            "description": "Fuet con un toque picante. Al vacío.",
-            "image": "img/productos/obach/fuet-un-punto-picante.webp",
+            "name": "Cigalets (minifuet)",
+            "description": "Pequeños fuets de unos 10 g.",
+            "image": "img/productos/obach/cigaletes-minifuet.webp",
+            "formats": [
+              {
+                "label": "Granel",
+                "size": "10 g/ud",
+                "box": "C/2 kg"
+              }
+            ],
+            "story": "Otra manera de comer su fuet: pequeñas raciones individuales de unos 10 g (paletilla, magro de panceta y tocino en tripa natural), ideales para picar a cualquier hora.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Longaniza sumaia",
+            "description": "Embutido curado tradicional, tripa natural.",
+            "image": null,
             "formats": [
               {
                 "label": "Pieza",
-                "size": "250 g",
-                "box": "C/12"
+                "size": "—",
+                "box": "C/3"
               }
             ],
-            "story": "Seleccionan las carnes más nobles del cerdo y añaden un toque más de pimienta para potenciar el sabor; embutido en calibre medio y con una curación óptima. Al vacío.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Sobrasada de montaña bisbera",
+            "description": "Magros de cerdo, grasa y papada.",
+            "image": "img/productos/obach/sobrasada-de-montana-bisbera.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "1,5 kg",
+                "box": "C/2"
+              }
+            ],
+            "story": "Magros de cerdo, grasa y papada con las mejores pimientas rojas, embutida en tripa ciega y curada lentamente, entre 4 y 6 meses: una sobrasada muy fina y gustosa.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Longaniza Seca del Pastor",
+            "description": "Tipo pascua.",
+            "image": null,
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "120 g",
+                "box": "C/2,5 kg"
+              }
+            ],
             "tags": [
               "Sin gluten"
             ]
@@ -708,164 +904,6 @@ window.CATALOGO = [
               }
             ],
             "story": "Embutido largo y muy delgado de paletilla de cerdo con un punto de grasa de jamón, en tripa natural. Su curación corta le da un sabor suave, ideal también para los más pequeños.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza extra de payés",
-            "description": "Paletilla de cerdo con un punto de grasa.",
-            "image": "img/productos/obach/longaniza-extra-de-payes.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "450 g",
-                "box": "C/7"
-              }
-            ],
-            "story": "Paletilla de cerdo con un punto de grasa de jamón, tripa natural de cerdo, el punto justo de sal y pimienta y una curación larga (30 días más 15 de bodega): uno de los productos más apreciados del cerdo.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza extra de payés mini",
-            "description": "Al vacío.",
-            "image": "img/productos/obach/longaniza-extra-de-payes-mini.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "280 g",
-                "box": "C/15"
-              }
-            ],
-            "story": "La longaniza extra de payés (paletilla de cerdo con un punto de grasa de jamón, tripa natural) en una pieza más pequeña al vacío. 30 días de curación más 15 de bodega.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza chafada con flora",
-            "description": "Longaniza chafada florecida, tripa natural.",
-            "image": "img/productos/obach/longaniza-chafada-con-flora.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "470 g",
-                "box": "C/7"
-              }
-            ],
-            "story": "Longaniza aplanada («chafada») con su flor natural, de paletilla de cerdo con un punto de grasa de jamón, en tripa natural de las madres. 30 días de curación más 15 de bodega.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza chafada de montaña",
-            "description": "Paletilla de las madres, tripa natural.",
-            "image": "img/productos/obach/longaniza-chafada-de-montana.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "480 g",
-                "box": "C/7"
-              }
-            ],
-            "story": "Siguiendo la fórmula de los tatarabuelos de la familia a principios del siglo XX, se eligen las carnes más magras de los cerdos más grandes (paletilla de las madres), que le dan un tono más oscuro y un sabor único. Tripa natural; 40 días de curación más 15 de bodega.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza chafada de montaña mini",
-            "description": "Al vacío.",
-            "image": "img/productos/obach/longaniza-chafada-de-montana-mini.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "270 g",
-                "box": "C/15"
-              }
-            ],
-            "story": "La longaniza de montaña (paletilla de las madres, la receta de principios del siglo XX) en pieza pequeña al vacío. 30 días de curación más 15 de bodega.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza fina seca al vacío",
-            "description": "Tipo pascua.",
-            "image": null,
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "120 g",
-                "box": "C/2,5 kg"
-              }
-            ],
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Longaniza sumaia",
-            "description": "Embutido curado tradicional, tripa natural.",
-            "image": null,
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "—",
-                "box": "C/3"
-              }
-            ],
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Cigaletes de montaña (Organyà)",
-            "description": "Dos unidades al vacío.",
-            "image": "img/productos/obach/cigaletes-de-montana-organya.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "180 g",
-                "box": "C/17"
-              }
-            ],
-            "story": "Embutido fino y largo de paletilla de cerdo con un punto de grasa de jamón, en tripa natural. Dos piezas por envase, al vacío.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Cigaletes (minifuet)",
-            "description": "Pequeños fuets de unos 10 g.",
-            "image": "img/productos/obach/cigaletes-minifuet.webp",
-            "formats": [
-              {
-                "label": "Granel",
-                "size": "10 g/ud",
-                "box": "C/2 kg"
-              }
-            ],
-            "story": "Otra manera de comer su fuet: pequeñas raciones individuales de unos 10 g (paletilla, magro de panceta y tocino en tripa natural), ideales para picar a cualquier hora.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Sobrasada de montaña bisbera",
-            "description": "Grasa de cerdo y papada.",
-            "image": "img/productos/obach/sobrasada-de-montana-bisbera.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "1,5 kg",
-                "box": "C/2"
-              }
-            ],
-            "story": "Grasa de cerdo y papada con las mejores pimientas rojas, embutida en tripa ciega y curada lentamente, entre 4 y 6 meses: una sobrasada muy fina y gustosa.",
             "tags": [
               "Sin gluten"
             ]
@@ -901,6 +939,38 @@ window.CATALOGO = [
             "tags": [
               "Sin gluten"
             ]
+          },
+          {
+            "name": "Longaniza extra de payés mini",
+            "description": "Al vacío.",
+            "image": "img/productos/obach/longaniza-extra-de-payes-mini.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "280 g",
+                "box": "C/15"
+              }
+            ],
+            "story": "La longaniza extra de payés (paletilla de cerdo con un punto de grasa de jamón, tripa natural) en una pieza más pequeña al vacío. 30 días de curación más 15 de bodega.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Longaniza chafada de montaña mini",
+            "description": "Al vacío.",
+            "image": "img/productos/obach/longaniza-chafada-de-montana-mini.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "270 g",
+                "box": "C/15"
+              }
+            ],
+            "story": "La longaniza de montaña (paletilla de las madres, la receta de principios del siglo XX) en pieza pequeña al vacío. 30 días de curación más 15 de bodega.",
+            "tags": [
+              "Sin gluten"
+            ]
           }
         ]
       },
@@ -909,8 +979,88 @@ window.CATALOGO = [
         "slug": "embutidos-cocidos",
         "products": [
           {
+            "name": "Butifarra blanca",
+            "description": "Morro, panceta y carne magra. Al vacío.",
+            "image": "img/productos/obach/butifarra-blanca.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "250 g",
+                "box": "C/10"
+              }
+            ],
+            "story": "Se toma la parte más tierna del morro, panceta y carne magra, todo cortado en daditos, embutido en tripa natural y hervido en la caldera.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Butifarra de huevo",
+            "description": "Morro, huevo, ajo y perejil. Al vacío.",
+            "image": "img/productos/obach/butifarra-de-huevo.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "250 g",
+                "box": "C/10"
+              }
+            ],
+            "story": "La butifarra típica del «Jueves Lardero» (Dijous Gras), el jueves antes de Carnaval: las carnes más melosas del cerdo, morro, huevo, ajo y perejil, todo hervido a fuego lento en la caldera.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Butifarra negra",
+            "description": "Sangre de cerdo y cebolla dulce. Al vacío.",
+            "image": "img/productos/obach/butifarra-negra.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "270 g",
+                "box": "C/10"
+              }
+            ],
+            "story": "Como la han hecho siempre los payeses de la comarca: carnes magras, morro, sangre de cerdo y cebolla dulce del pueblo, hervida a fuego lento. No lleva pan, por eso es apta para celíacos.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Bull de carnetes",
+            "description": "Morro de cerdo cocido y carnes magras.",
+            "image": "img/productos/obach/bull-de-carnetes.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "475 g",
+                "box": "C/6"
+              }
+            ],
+            "story": "Primero se hierve el morro de cerdo; una vez cocido se trocea en daditos y se embute con las mejores carnes magras, consiguiendo un bull extraordinariamente meloso.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Bull de carnetes negro",
+            "description": "Morro y sangre de cerdo.",
+            "image": "img/productos/obach/bull-de-carnetes-negro.webp",
+            "formats": [
+              {
+                "label": "Pieza",
+                "size": "475 g",
+                "box": "C/6"
+              }
+            ],
+            "story": "Morro de cerdo cocido y troceado en daditos al que se añade sangre de cerdo, que le da su color negro; una vez embutido se hierve a fuego lento en la caldera.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
             "name": "Bisbe de lengua",
-            "description": "Bull de lengua grande, tripa natural.",
+            "description": "Con trozos enteros de lengua, en tripa ciega. Al vacío.",
             "image": "img/productos/obach/bisbe-de-lengua.webp",
             "formats": [
               {
@@ -919,14 +1069,14 @@ window.CATALOGO = [
                 "box": "C/2"
               }
             ],
-            "story": "El bull de lengua grande: magro de panceta, papada, morrillo y trozos enteros de lengua, embutidos en tripa ciega natural y cocidos lentamente en la caldera.",
+            "story": "Magro de panceta, papada, morrillo y trozos enteros de lengua, embutidos en tripa ciega natural y cocidos lentamente en la caldera. Pieza grande de unos 1,5 kg, al vacío.",
             "tags": [
               "Sin gluten"
             ]
           },
           {
             "name": "Bisbe de lengua negro",
-            "description": "Bull negro de lengua grande.",
+            "description": "Con lengua y sangre de cerdo, en tripa ciega. Al vacío.",
             "image": "img/productos/obach/bisbe-de-lengua-negro.webp",
             "formats": [
               {
@@ -935,7 +1085,7 @@ window.CATALOGO = [
                 "box": "C/2"
               }
             ],
-            "story": "El bull negro de lengua grande: magro de panceta, papada, morrillo, trozos enteros de lengua y sangre de cerdo, en tripa ciega natural y cocido lentamente, como lo han hecho siempre los payeses de la comarca.",
+            "story": "Magro de panceta, papada, morrillo, trozos enteros de lengua y sangre de cerdo, en tripa ciega natural y cocido lentamente, como lo han hecho siempre los payeses de la comarca. Pieza grande de unos 1,5 kg, al vacío.",
             "tags": [
               "Sin gluten"
             ]
@@ -984,86 +1134,6 @@ window.CATALOGO = [
               }
             ],
             "story": "La combinación de las mejores carnes con gran cantidad de trozos de lengua entera, embutidas en tripa natural y hervidas a fuego lento en la caldera: un bull de sabor excepcional.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Bull de carnetes",
-            "description": "Morro de cerdo cocido y carnes magras.",
-            "image": "img/productos/obach/bull-de-carnetes.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "475 g",
-                "box": "C/6"
-              }
-            ],
-            "story": "Primero se hierve el morro de cerdo; una vez cocido se trocea en daditos y se embute con las mejores carnes magras, consiguiendo un bull extraordinariamente meloso.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Bull de carnetes negro",
-            "description": "Morro y sangre de cerdo.",
-            "image": "img/productos/obach/bull-de-carnetes-negro.webp",
-            "formats": [
-              {
-                "label": "Pieza",
-                "size": "475 g",
-                "box": "C/6"
-              }
-            ],
-            "story": "Morro de cerdo cocido y troceado en daditos al que se añade sangre de cerdo, que le da su color negro; una vez embutido se hierve a fuego lento en la caldera.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Butifarra blanca",
-            "description": "Morro, panceta y carne magra. Al vacío.",
-            "image": "img/productos/obach/butifarra-blanca.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "250 g",
-                "box": "C/10"
-              }
-            ],
-            "story": "Se toma la parte más tierna del morro, panceta y carne magra, todo cortado en daditos, embutido en tripa natural y hervido en la caldera.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Butifarra de huevo",
-            "description": "Morro, huevo, ajo y perejil. Al vacío.",
-            "image": "img/productos/obach/butifarra-de-huevo.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "250 g",
-                "box": "C/10"
-              }
-            ],
-            "story": "La butifarra típica del «Jueves Lardero» (Dijous Gras), el jueves antes de Carnaval: las carnes más melosas del cerdo, morro, huevo, ajo y perejil, todo hervido a fuego lento en la caldera.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Butifarra negra",
-            "description": "Sangre de cerdo y cebolla dulce. Al vacío.",
-            "image": "img/productos/obach/butifarra-negra.webp",
-            "formats": [
-              {
-                "label": "Unidad",
-                "size": "270 g",
-                "box": "C/10"
-              }
-            ],
-            "story": "Como la han hecho siempre los payeses de la comarca: carnes magras, morro, sangre de cerdo y cebolla dulce del pueblo, hervida a fuego lento. No lleva pan, por eso es apta para celíacos.",
             "tags": [
               "Sin gluten"
             ]
@@ -1193,7 +1263,14 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "3 kg",
-                "box": "C/2"
+                "box": "C/2",
+                "image": "img/productos/pago-de-la-jaraba/queso-semicurado.webp"
+              },
+              {
+                "label": "Cuña al vacío",
+                "size": "250 g",
+                "box": "C/12",
+                "image": "img/productos/pago-de-la-jaraba/queso-semicurado-cuna.webp"
               }
             ],
             "story": "Queso manchego artesano de granja D.O.P., hecho solo con leche cruda de las ovejas manchegas de la propia finca, sin pasteurizar. 3–6 meses de curación: sabor suave con notas lácticas y un ligero toque ácido, textura cremosa. Ideal con frutos secos, mermeladas o vinos blancos y jóvenes."
@@ -1206,7 +1283,14 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "3 kg",
-                "box": "C/2"
+                "box": "C/2",
+                "image": "img/productos/pago-de-la-jaraba/queso-curado.webp"
+              },
+              {
+                "label": "Cuña al vacío",
+                "size": "250 g",
+                "box": "C/12",
+                "image": "img/productos/pago-de-la-jaraba/queso-curado-cuna.webp"
               }
             ],
             "story": "Queso manchego artesano de granja D.O.P., de leche cruda de las ovejas de la finca. 6–9 meses de curación: notas de frutos secos y mantequilla, textura firme y ligeramente quebradiza. Perfecto con tintos jóvenes, jamón ibérico o aceitunas."
@@ -1219,7 +1303,14 @@ window.CATALOGO = [
               {
                 "label": "Pieza",
                 "size": "3 kg",
-                "box": "C/2"
+                "box": "C/2",
+                "image": "img/productos/pago-de-la-jaraba/queso-viejo.webp"
+              },
+              {
+                "label": "Cuña al vacío",
+                "size": "250 g",
+                "box": "C/12",
+                "image": "img/productos/pago-de-la-jaraba/queso-viejo-cuna.webp"
               }
             ],
             "story": "Queso manchego artesano de granja D.O.P., de leche cruda, con más de 12 meses de curación: sabor intenso con notas picantes y de frutos secos, textura firme y algo granulosa. Para tintos con cuerpo, caza o frutos secos."
@@ -1315,10 +1406,10 @@ window.CATALOGO = [
               {
                 "label": "Botella",
                 "size": "500 ml",
-                "box": "C/12 · C/6"
+                "box": "C/6 · C/12"
               },
               {
-                "label": "Garrafa",
+                "label": "Lata",
                 "size": "2 l",
                 "box": "C/8"
               }
@@ -1336,10 +1427,10 @@ window.CATALOGO = [
               {
                 "label": "Botella",
                 "size": "500 ml",
-                "box": "C/12 · C/6"
+                "box": "C/6 · C/12"
               },
               {
-                "label": "Garrafa",
+                "label": "Lata",
                 "size": "2 l",
                 "box": "C/8"
               }
@@ -1357,10 +1448,10 @@ window.CATALOGO = [
               {
                 "label": "Botella",
                 "size": "500 ml",
-                "box": "C/12 · C/6"
+                "box": "C/6 · C/12"
               },
               {
-                "label": "Garrafa",
+                "label": "Lata",
                 "size": "2 l",
                 "box": "C/8"
               }
@@ -1381,6 +1472,180 @@ window.CATALOGO = [
     "tagline": "Txokolate y confitería artesana de Tolosa desde 1680",
     "intro": "Rafa Gorrotxategi es la tercera generación de una familia de pasteleros de Tolosa, la confitería que popularizó las Delicias de Tolosa. Chocolate bean to bar premiado, txokolate artesano, trufas, turrones todo el año, confitería tradicional vasca y tartas para hostelería.",
     "categories": [
+      {
+        "name": "Confitería artesana",
+        "slug": "confiteria-artesana",
+        "products": [
+          {
+            "name": "Gorrotxas de Tolosa",
+            "description": "Macaron vasco tradicional.",
+            "image": "img/productos/rafa-gorrotxategi/gorrotxas-de-tolosa.webp",
+            "formats": [
+              {
+                "label": "6 uds",
+                "size": "180 g",
+                "box": "C/8"
+              },
+              {
+                "label": "12 uds",
+                "size": "360 g",
+                "box": "C/8"
+              },
+              {
+                "label": "Estuche 24 uds",
+                "size": "720 g",
+                "box": "C/2"
+              }
+            ],
+            "story": "El macaron vasco: pastelitos tiernos de almendra, yema de huevo y azúcar (45 % de almendra y yema). Desde 1850 se conocían en Tolosa como «Delicias de Tolosa»; en 1967 José Mari Gorrotxategi, padre de Rafa, y el gastrónomo José M. Busca Isusi los relanzaron como «Xaxu». Hoy Rafa los rebautiza como «Gorrotxa» en homenaje a su padre.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Tejas de Tolosa y cigarrillos",
+            "description": "La pareja clásica de la repostería tolosarra.",
+            "image": "img/productos/rafa-gorrotxategi/tejas-de-tolosa-y-cigarrillos.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "150 g",
+                "box": "C/8"
+              }
+            ],
+            "story": "La pareja insuperable de la repostería tolosarra: tejas de almendra crujientes y finos cigarrillos de mantequilla con un toque de vainilla. Cada estuche lleva 10 tejas y 13 cigarrillos."
+          },
+          {
+            "name": "Tejas de Tolosa caramelizadas",
+            "description": "Tejas de almendra caramelizada.",
+            "image": "img/productos/rafa-gorrotxategi/tejas-de-tolosa-caramelizadas.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "150 g",
+                "box": "C/8"
+              },
+              {
+                "label": "Estuche",
+                "size": "75 g",
+                "box": "C/8"
+              }
+            ],
+            "story": "Las famosas tejas de Tolosa, reinventadas: crujientes, con almendra seleccionada, azúcar de caña, harina de arroz y mantequilla. Sin conservantes.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Tejas con chocolate negro y naranja",
+            "description": "Tejas bañadas en chocolate a la naranja.",
+            "image": "img/productos/rafa-gorrotxategi/tejas-con-chocolate-negro-y-naranja.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "150 g",
+                "box": "C/8"
+              }
+            ],
+            "story": "Tejas de almendra crujientes con un baño de chocolate negro con un toque de naranja. Sin conservantes.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Tejas mixtas",
+            "description": "Almendra y chocolate con naranja.",
+            "image": "img/productos/rafa-gorrotxategi/tejas-mixtas.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "150 g",
+                "box": "C/8"
+              }
+            ],
+            "story": "Surtido de tejas de almendra al caramelo y tejas bañadas en chocolate a la naranja.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Cigarrillos de Tolosa",
+            "description": "Barquillos de mantequilla.",
+            "image": "img/productos/rafa-gorrotxategi/cigarrillos-de-tolosa.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "75 g",
+                "box": "C/8"
+              }
+            ],
+            "story": "Finos cigarrillos de mantequilla, suaves y delicados, con un toque de vainilla. Ideales con chocolate o café, o para acompañar helados, natillas o arroz con leche."
+          },
+          {
+            "name": "Pastas de mantequilla",
+            "description": "Pastas finas de mantequilla.",
+            "image": "img/productos/rafa-gorrotxategi/pastas-de-mantequilla.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "200 g",
+                "box": "C/10"
+              }
+            ],
+            "story": "Pastas finas de té, elaboradas artesanalmente con mantequilla, huevo, leche, harina, frutos secos, azúcar y especias. Sin colorantes ni conservantes."
+          },
+          {
+            "name": "Pastas surtidas de mantequilla y chocolate",
+            "description": "Pastas de té de mantequilla y bañadas en chocolate.",
+            "image": "img/productos/rafa-gorrotxategi/pastas-surtidas-de-mantequilla-y-chocolate.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "200 g",
+                "box": "C/10"
+              }
+            ],
+            "story": "Surtido de pastas finas de té: de mantequilla y bañadas en chocolate. Sin colorantes ni conservantes."
+          },
+          {
+            "name": "Polvorones de almendra",
+            "description": "Con trocitos de almendra.",
+            "image": "img/productos/rafa-gorrotxategi/polvorones-de-almendra.webp",
+            "formats": [
+              {
+                "label": "Estuche",
+                "size": "180 g",
+                "box": "C/8"
+              },
+              {
+                "label": "Granel (60-64 uds)",
+                "size": "2 kg",
+                "box": "C/6"
+              }
+            ],
+            "story": "Polvorones con un mínimo del 34 % de almendra Marcona, molida y en trocitos, con un sutil toque de canela y limón. Sin conservantes, colorantes ni aditivos. Producto de temporada de Navidad.",
+            "tags": [
+              "Temporada de Navidad"
+            ]
+          },
+          {
+            "name": "Panettone",
+            "description": "Con trocitos de chocolate y naranja confitada.",
+            "image": "img/productos/rafa-gorrotxategi/panettone.webp",
+            "formats": [
+              {
+                "label": "Unidad",
+                "size": "500 g",
+                "box": "C/6"
+              }
+            ],
+            "story": "Panettone artesano de masa madre, con su lento proceso de elaboración, que le da un aroma inconfundible y una textura suave y esponjosa, con chocolate y naranja confitada. Producto de temporada de Navidad.",
+            "tags": [
+              "Temporada de Navidad"
+            ]
+          }
+        ]
+      },
       {
         "name": "Txokolate bean to bar",
         "slug": "txokolate-bean-to-bar",
@@ -2098,23 +2363,214 @@ window.CATALOGO = [
         ]
       },
       {
-        "name": "Confitería artesana",
-        "slug": "confiteria-artesana",
+        "name": "Hostelería · los más vendidos",
+        "slug": "hosteleria-los-mas-vendidos",
         "products": [
           {
-            "name": "Gorrotxas de Tolosa",
-            "description": "Macaron vasco tradicional.",
-            "image": "img/productos/rafa-gorrotxategi/gorrotxas-de-tolosa.webp",
+            "name": "Tejas de hostelería",
+            "description": "De almendra, o de almendra y chocolate a la naranja.",
+            "image": "img/productos/rafa-gorrotxategi/tejas-de-hosteleria.webp",
             "formats": [
               {
-                "label": "6 uds",
-                "size": "180 g",
-                "box": "C/8"
+                "label": "Almendra",
+                "size": "1 kg · 120 uds",
+                "box": "C/6"
               },
               {
-                "label": "12 uds",
-                "size": "360 g",
-                "box": "C/8"
+                "label": "Almendra y chocolate",
+                "size": "1 kg · 104 uds",
+                "box": "C/6"
+              }
+            ],
+            "story": "Tejas de Tolosa en caja de 1 kg para hostelería.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Cigarrillos de hostelería",
+            "description": "Cigarrillos de mantequilla.",
+            "image": "img/productos/rafa-gorrotxategi/cigarrillos-de-hosteleria.webp",
+            "formats": [
+              {
+                "label": "Caja",
+                "size": "1 kg · 184 uds",
+                "box": "C/6"
+              }
+            ]
+          },
+          {
+            "name": "Gâteau basque de chocolate",
+            "description": "El pastel vasco tradicional, relleno de chocolate.",
+            "image": "img/productos/rafa-gorrotxategi/gateau-basque-de-chocolate.webp",
+            "formats": [
+              {
+                "label": "Tarta",
+                "size": "8 rac.",
+                "box": "C/6"
+              }
+            ]
+          },
+          {
+            "name": "Gâteau basque de crema",
+            "description": "El pastel vasco tradicional, relleno de crema.",
+            "image": "img/productos/rafa-gorrotxategi/gateau-basque-de-crema.webp",
+            "formats": [
+              {
+                "label": "Tarta",
+                "size": "8 rac.",
+                "box": "C/6"
+              }
+            ]
+          },
+          {
+            "name": "Tarta de manzana asada",
+            "description": "Con relleno de crema de almendras.",
+            "image": "img/productos/rafa-gorrotxategi/tarta-de-manzana-asada.webp",
+            "formats": [
+              {
+                "label": "Tarta",
+                "size": "8 rac.",
+                "box": "C/6"
+              }
+            ]
+          },
+          {
+            "name": "Tarta de queso con leche de oveja",
+            "description": "Horneada.",
+            "image": "img/productos/rafa-gorrotxategi/tarta-de-queso-con-leche-de-oveja.webp",
+            "formats": [
+              {
+                "label": "Tarta",
+                "size": "8 rac.",
+                "box": "C/6"
+              }
+            ]
+          },
+          {
+            "name": "Palmeritas de mantequilla",
+            "description": "Naturales, bañadas en chocolate a la naranja o en blanco con pistacho.",
+            "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla.webp",
+            "formats": [
+              {
+                "label": "Natural, bandeja 10",
+                "size": "175 g",
+                "box": "C/6",
+                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-natural.webp"
+              },
+              {
+                "label": "Choco-naranja, bandeja 10",
+                "size": "175 g",
+                "box": "C/6",
+                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-choco-naranja.webp"
+              },
+              {
+                "label": "Choco blanco y pistacho, bandeja 10",
+                "size": "175 g",
+                "box": "C/6",
+                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-choco-blanco-y-pistacho.webp"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hostelería · trufas y confitería",
+        "slug": "hosteleria-trufas-y-confiteria",
+        "products": [
+          {
+            "name": "Trufas de hostelería",
+            "description": "Ron Diplomático, praliné, canela, frambuesa, coco, café o naranja.",
+            "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria.webp",
+            "formats": [
+              {
+                "label": "Ron Diplomático",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-ron-diplomatico.webp"
+              },
+              {
+                "label": "Praliné",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-praline.webp"
+              },
+              {
+                "label": "Canela",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-canela.webp"
+              },
+              {
+                "label": "Frambuesa",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-frambuesa.webp"
+              },
+              {
+                "label": "Coco",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-coco.webp"
+              },
+              {
+                "label": "Café",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-cafe.webp"
+              },
+              {
+                "label": "Naranja",
+                "size": "154 uds",
+                "box": "C/1",
+                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-naranja.webp"
+              }
+            ],
+            "story": "Caja de 154 trufas para servir con el café o el postre. Sabores: ron Diplomático Reserva Exclusiva, praliné, canela, frambuesa, coco, café o naranja.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Mini turrones de trufa",
+            "description": "Mandarina-yuzu, Armagnac-ciruelas, ruby-fresas o yogur-grosellas.",
+            "image": "img/productos/rafa-gorrotxategi/mini-turrones-de-trufa.webp",
+            "formats": [
+              {
+                "label": "Mandarina y yuzu",
+                "size": "3150 g · 42 uds",
+                "box": "C/6"
+              },
+              {
+                "label": "Armagnac y ciruelas",
+                "size": "3150 g · 42 uds",
+                "box": "C/6"
+              },
+              {
+                "label": "Ruby y fresas",
+                "size": "3150 g · 42 uds",
+                "box": "C/6"
+              },
+              {
+                "label": "Yogur y grosellas",
+                "size": "3150 g · 42 uds",
+                "box": "C/6"
+              }
+            ],
+            "story": "Caja de 42 mini turrones de tierna trufa para hostelería, en cuatro sabores: mandarina y yuzu, Armagnac con ciruelas, ruby y fresas o yogur con grosellas.",
+            "tags": [
+              "Sin gluten"
+            ]
+          },
+          {
+            "name": "Gorrotxas de hostelería",
+            "description": "Macarons vascos.",
+            "image": "img/productos/rafa-gorrotxategi/gorrotxas-de-hosteleria.webp",
+            "formats": [
+              {
+                "label": "Caja 48 uds",
+                "size": "1440 g",
+                "box": "C/6"
               },
               {
                 "label": "Estuche 24 uds",
@@ -2122,151 +2578,38 @@ window.CATALOGO = [
                 "box": "C/2"
               }
             ],
-            "story": "El macaron vasco: pastelitos tiernos de almendra, yema de huevo y azúcar (45 % de almendra y yema). Desde 1850 se conocían en Tolosa como «Delicias de Tolosa»; en 1967 José Mari Gorrotxategi, padre de Rafa, y el gastrónomo José M. Busca Isusi los relanzaron como «Xaxu». Hoy Rafa los rebautiza como «Gorrotxa» en homenaje a su padre.",
+            "story": "Los macarons vascos de la casa (almendra, yema y azúcar) en formatos para hostelería.",
             "tags": [
               "Sin gluten"
             ]
           },
           {
-            "name": "Tejas de Tolosa y cigarrillos",
-            "description": "La pareja clásica de la repostería tolosarra.",
-            "image": "img/productos/rafa-gorrotxategi/tejas-de-tolosa-y-cigarrillos.webp",
+            "name": "Pastas de té mixtas",
+            "description": "Mantequilla y chocolate.",
+            "image": "img/productos/rafa-gorrotxategi/pastas-de-te-mixtas.webp",
             "formats": [
               {
-                "label": "Estuche",
-                "size": "150 g",
-                "box": "C/8"
-              }
-            ],
-            "story": "La pareja insuperable de la repostería tolosarra: tejas de almendra crujientes y finos cigarrillos de mantequilla con un toque de vainilla. Cada estuche lleva 10 tejas y 13 cigarrillos."
-          },
-          {
-            "name": "Tejas de Tolosa caramelizadas",
-            "description": "Tejas de almendra caramelizada.",
-            "image": "img/productos/rafa-gorrotxategi/tejas-de-tolosa-caramelizadas.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "150 g",
-                "box": "C/8"
-              },
-              {
-                "label": "Estuche",
-                "size": "75 g",
-                "box": "C/8"
-              }
-            ],
-            "story": "Las famosas tejas de Tolosa, reinventadas: crujientes, con almendra seleccionada, azúcar de caña, harina de arroz y mantequilla. Sin conservantes.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Tejas con chocolate negro y naranja",
-            "description": "Tejas bañadas en chocolate a la naranja.",
-            "image": "img/productos/rafa-gorrotxategi/tejas-con-chocolate-negro-y-naranja.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "150 g",
-                "box": "C/8"
-              }
-            ],
-            "story": "Tejas de almendra crujientes con un baño de chocolate negro con un toque de naranja. Sin conservantes.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Tejas mixtas",
-            "description": "Almendra y chocolate con naranja.",
-            "image": "img/productos/rafa-gorrotxategi/tejas-mixtas.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "150 g",
-                "box": "C/8"
-              }
-            ],
-            "story": "Surtido de tejas de almendra al caramelo y tejas bañadas en chocolate a la naranja.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Cigarrillos de Tolosa",
-            "description": "Barquillos de mantequilla.",
-            "image": "img/productos/rafa-gorrotxategi/cigarrillos-de-tolosa.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "75 g",
-                "box": "C/8"
-              }
-            ],
-            "story": "Finos cigarrillos de mantequilla, suaves y delicados, con un toque de vainilla. Ideales con chocolate o café, o para acompañar helados, natillas o arroz con leche."
-          },
-          {
-            "name": "Pastas de mantequilla",
-            "description": "Pastas finas de mantequilla.",
-            "image": "img/productos/rafa-gorrotxategi/pastas-de-mantequilla.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "200 g",
-                "box": "C/10"
-              }
-            ],
-            "story": "Pastas finas de té, elaboradas artesanalmente con mantequilla, huevo, leche, harina, frutos secos, azúcar y especias. Sin colorantes ni conservantes."
-          },
-          {
-            "name": "Pastas surtidas de mantequilla y chocolate",
-            "description": "Pastas de té de mantequilla y bañadas en chocolate.",
-            "image": "img/productos/rafa-gorrotxategi/pastas-surtidas-de-mantequilla-y-chocolate.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "200 g",
-                "box": "C/10"
-              }
-            ],
-            "story": "Surtido de pastas finas de té: de mantequilla y bañadas en chocolate. Sin colorantes ni conservantes."
-          },
-          {
-            "name": "Polvorones de almendra",
-            "description": "Con trocitos de almendra.",
-            "image": "img/productos/rafa-gorrotxategi/polvorones-de-almendra.webp",
-            "formats": [
-              {
-                "label": "Estuche",
-                "size": "180 g",
-                "box": "C/8"
-              },
-              {
-                "label": "Granel (60-64 uds)",
-                "size": "2 kg",
+                "label": "Caja",
+                "size": "1 kg · 90 uds",
                 "box": "C/6"
               }
-            ],
-            "story": "Polvorones con un mínimo del 34 % de almendra Marcona, molida y en trocitos, con un sutil toque de canela y limón. Sin conservantes, colorantes ni aditivos. Producto de temporada de Navidad.",
-            "tags": [
-              "Temporada de Navidad"
             ]
           },
           {
-            "name": "Panettone",
-            "description": "Con trocitos de chocolate y naranja confitada.",
-            "image": "img/productos/rafa-gorrotxategi/panettone.webp",
+            "name": "Chocolate a la taza",
+            "description": "Bolsa para hostelería.",
+            "image": "img/productos/rafa-gorrotxategi/chocolate-a-la-taza.webp",
             "formats": [
               {
-                "label": "Unidad",
-                "size": "500 g",
-                "box": "C/6"
+                "label": "Bolsa",
+                "size": "400 g",
+                "box": "C/9"
               }
             ],
-            "story": "Panettone artesano de masa madre, con su lento proceso de elaboración, que le da un aroma inconfundible y una textura suave y esponjosa, con chocolate y naranja confitada. Producto de temporada de Navidad.",
+            "story": "Chocolate a la taza con un mínimo de 40 % de cacao y azúcar moreno de caña integral, de textura aterciopelada. Con 1 litro de leche y 200 g se preparan unas 6 tazas.",
             "tags": [
-              "Temporada de Navidad"
+              "Sin gluten",
+              "Sin lactosa"
             ]
           }
         ]
@@ -2422,18 +2765,6 @@ window.CATALOGO = [
             ]
           },
           {
-            "name": "Tarta de manzana asada",
-            "description": "Con relleno de crema de almendras.",
-            "image": "img/productos/rafa-gorrotxategi/tarta-de-manzana-asada.webp",
-            "formats": [
-              {
-                "label": "Tarta",
-                "size": "8 rac.",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
             "name": "Tarta cesta “Amona Mari”",
             "description": "Crema y yema tostada.",
             "image": "img/productos/rafa-gorrotxategi/tarta-cesta-amona-mari.webp",
@@ -2449,42 +2780,6 @@ window.CATALOGO = [
             "name": "Tarta de frutas",
             "description": "Rellena de crema, con frambuesa, mora, kiwi, piña y mandarina.",
             "image": "img/productos/rafa-gorrotxategi/tarta-de-frutas.webp",
-            "formats": [
-              {
-                "label": "Tarta",
-                "size": "8 rac.",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
-            "name": "Gâteau basque de crema",
-            "description": "El pastel vasco tradicional, relleno de crema.",
-            "image": "img/productos/rafa-gorrotxategi/gateau-basque-de-crema.webp",
-            "formats": [
-              {
-                "label": "Tarta",
-                "size": "8 rac.",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
-            "name": "Gâteau basque de chocolate",
-            "description": "El pastel vasco tradicional, relleno de chocolate.",
-            "image": "img/productos/rafa-gorrotxategi/gateau-basque-de-chocolate.webp",
-            "formats": [
-              {
-                "label": "Tarta",
-                "size": "8 rac.",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
-            "name": "Tarta de queso con leche de oveja",
-            "description": "Horneada.",
-            "image": "img/productos/rafa-gorrotxategi/tarta-de-queso-con-leche-de-oveja.webp",
             "formats": [
               {
                 "label": "Tarta",
@@ -2750,204 +3045,6 @@ window.CATALOGO = [
               }
             ],
             "story": "Petit choux con caramelo, relleno de crema, sobre crujiente hojaldre y cubierto de nata."
-          }
-        ]
-      },
-      {
-        "name": "Hostelería · trufas y confitería",
-        "slug": "hosteleria-trufas-y-confiteria",
-        "products": [
-          {
-            "name": "Trufas de hostelería",
-            "description": "Ron Diplomático, praliné, canela, frambuesa, coco, café o naranja.",
-            "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria.webp",
-            "formats": [
-              {
-                "label": "Ron Diplomático",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-ron-diplomatico.webp"
-              },
-              {
-                "label": "Praliné",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-praline.webp"
-              },
-              {
-                "label": "Canela",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-canela.webp"
-              },
-              {
-                "label": "Frambuesa",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-frambuesa.webp"
-              },
-              {
-                "label": "Coco",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-coco.webp"
-              },
-              {
-                "label": "Café",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-cafe.webp"
-              },
-              {
-                "label": "Naranja",
-                "size": "154 uds",
-                "box": "C/1",
-                "image": "img/productos/rafa-gorrotxategi/trufas-de-hosteleria-naranja.webp"
-              }
-            ],
-            "story": "Caja de 154 trufas para servir con el café o el postre. Sabores: ron Diplomático Reserva Exclusiva, praliné, canela, frambuesa, coco, café o naranja.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Mini turrones de trufa",
-            "description": "Mandarina-yuzu, Armagnac-ciruelas, ruby-fresas o yogur-grosellas.",
-            "image": "img/productos/rafa-gorrotxategi/mini-turrones-de-trufa.webp",
-            "formats": [
-              {
-                "label": "Mandarina y yuzu",
-                "size": "3150 g · 42 uds",
-                "box": "C/6"
-              },
-              {
-                "label": "Armagnac y ciruelas",
-                "size": "3150 g · 42 uds",
-                "box": "C/6"
-              },
-              {
-                "label": "Ruby y fresas",
-                "size": "3150 g · 42 uds",
-                "box": "C/6"
-              },
-              {
-                "label": "Yogur y grosellas",
-                "size": "3150 g · 42 uds",
-                "box": "C/6"
-              }
-            ],
-            "story": "Caja de 42 mini turrones de tierna trufa para hostelería, en cuatro sabores: mandarina y yuzu, Armagnac con ciruelas, ruby y fresas o yogur con grosellas.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Gorrotxas de hostelería",
-            "description": "Macarons vascos.",
-            "image": "img/productos/rafa-gorrotxategi/gorrotxas-de-hosteleria.webp",
-            "formats": [
-              {
-                "label": "Caja 48 uds",
-                "size": "1440 g",
-                "box": "C/6"
-              },
-              {
-                "label": "Estuche 24 uds",
-                "size": "720 g",
-                "box": "C/2"
-              }
-            ],
-            "story": "Los macarons vascos de la casa (almendra, yema y azúcar) en formatos para hostelería.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Tejas de hostelería",
-            "description": "De almendra, o de almendra y chocolate a la naranja.",
-            "image": "img/productos/rafa-gorrotxategi/tejas-de-hosteleria.webp",
-            "formats": [
-              {
-                "label": "Almendra",
-                "size": "1 kg · 120 uds",
-                "box": "C/6"
-              },
-              {
-                "label": "Almendra y chocolate",
-                "size": "1 kg · 104 uds",
-                "box": "C/6"
-              }
-            ],
-            "story": "Tejas de Tolosa en caja de 1 kg para hostelería.",
-            "tags": [
-              "Sin gluten"
-            ]
-          },
-          {
-            "name": "Cigarrillos de hostelería",
-            "description": "Cigarrillos de mantequilla.",
-            "image": "img/productos/rafa-gorrotxategi/cigarrillos-de-hosteleria.webp",
-            "formats": [
-              {
-                "label": "Caja",
-                "size": "1 kg · 184 uds",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
-            "name": "Pastas de té mixtas",
-            "description": "Mantequilla y chocolate.",
-            "image": "img/productos/rafa-gorrotxategi/pastas-de-te-mixtas.webp",
-            "formats": [
-              {
-                "label": "Caja",
-                "size": "1 kg · 90 uds",
-                "box": "C/6"
-              }
-            ]
-          },
-          {
-            "name": "Palmeritas de mantequilla",
-            "description": "Naturales, bañadas en chocolate a la naranja o en blanco con pistacho.",
-            "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla.webp",
-            "formats": [
-              {
-                "label": "Natural, bandeja 10",
-                "size": "175 g",
-                "box": "C/6",
-                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-natural.webp"
-              },
-              {
-                "label": "Choco-naranja, bandeja 10",
-                "size": "175 g",
-                "box": "C/6",
-                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-choco-naranja.webp"
-              },
-              {
-                "label": "Choco blanco y pistacho, bandeja 10",
-                "size": "175 g",
-                "box": "C/6",
-                "image": "img/productos/rafa-gorrotxategi/palmeritas-de-mantequilla-choco-blanco-y-pistacho.webp"
-              }
-            ]
-          },
-          {
-            "name": "Chocolate a la taza",
-            "description": "Bolsa para hostelería.",
-            "image": "img/productos/rafa-gorrotxategi/chocolate-a-la-taza.webp",
-            "formats": [
-              {
-                "label": "Bolsa",
-                "size": "400 g",
-                "box": "C/9"
-              }
-            ],
-            "story": "Chocolate a la taza con un mínimo de 40 % de cacao y azúcar moreno de caña integral, de textura aterciopelada. Con 1 litro de leche y 200 g se preparan unas 6 tazas.",
-            "tags": [
-              "Sin gluten",
-              "Sin lactosa"
-            ]
           }
         ]
       }

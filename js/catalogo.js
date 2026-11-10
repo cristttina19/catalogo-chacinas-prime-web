@@ -81,6 +81,9 @@ function formatChip(format) {
 function saleFormat(box) {
   if (!box) return "";
   if (!box.startsWith("C/")) return `Caja de ${box}`;
+  // "C/2 mitades · 10 kg": a whole piece cut in two halves
+  const pieceInHalves = box.match(/^C\/(\d+) mitades(?: · (.+))?$/);
+  if (pieceInHalves) return `Caja de ${pieceInHalves[1]} mitades` + (pieceInHalves[2] ? ` (${pieceInHalves[2]} en total)` : "");
   const options = box.split(/\s*(?:\bo\b|ó|·)\s*/).map(part => part.replace(/^C\//, "").trim()).filter(Boolean);
   if (options.every(o => /^\d+$/.test(o))) {
     // Spanish uses "u" instead of "o" before a word starting with an "o" sound (8, 11...).
