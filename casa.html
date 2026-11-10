@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Catálogo Chacinas Prime</title>
   <meta property="og:type" content="website">
@@ -21,7 +22,7 @@
   <link rel="stylesheet" href="css/estilo.css">
   <meta name="robots" content="noindex, nofollow">
 </head>
-<body>
+<body data-page="house">
   <header class="top">
     <div class="wrap">
       <a class="brand" href="index.html" title="Volver al inicio"><img src="img/logos/chacinas-prime-cabecera.png" alt="Chacinas Prime"></a>
@@ -59,12 +60,15 @@
         <div class="eyebrow" id="detail-category"></div>
         <h2 id="detail-name"></h2>
         <p id="detail-description"></p>
-        <table>
-          <thead><tr><th>Formato</th><th>Peso / tamaño</th><th>Caja</th></tr></thead>
-          <tbody id="detail-formats"></tbody>
-        </table>
+        <div class="tags" id="detail-tags"></div>
+        <div class="story" id="detail-story"></div>
+        <h3 class="formats-title" id="detail-formats-title">Presentación</h3>
+        <ul class="format-list" id="detail-formats"></ul>
         <p class="contact-note">Consulta precios y disponibilidad con tu comercial de Chacinas Prime.</p>
-        <a class="btn btn-whatsapp" id="detail-whatsapp" href="#" target="_blank" rel="noopener">Pedir información por WhatsApp</a>
+        <div class="detail-actions">
+          <a class="btn btn-whatsapp" id="detail-whatsapp" href="#" target="_blank" rel="noopener">Pedir información por WhatsApp</a>
+          <button class="btn btn-outline btn-share" id="detail-share" type="button">Compartir</button>
+        </div>
       </div>
     </div>
   </dialog>
@@ -78,6 +82,5 @@
 
   <script src="js/productos.js"></script>
   <script src="js/catalogo.js"></script>
-  <script>renderHouse();</script>
 </body>
 </html>

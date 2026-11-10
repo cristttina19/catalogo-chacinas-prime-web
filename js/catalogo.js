@@ -75,8 +75,44 @@ function formatChip(format) {
   return [format.label, format.size].filter(v => v && v !== "—").join(" · ");
 }
 
+// Turns the price-list box code into plain words for customers:
+// "C/12" -> "Caja de 12 unidades", "C/1-2" -> "Caja de 1 a 2 unidades", "C/4 o C/8" -> "Caja de 4 u 8 unidades",
+// "C/10 kg" -> "Caja de 10 kg", "2 packs" -> "Caja de 2 packs".
+function saleFormat(box) {
+  if (!box) return "";
+  if (!box.startsWith("C/")) return `Caja de ${box}`;
+  const options = box.split(/\s*(?:\bo\b|ó|·)\s*/).map(part => part.replace(/^C\//, "").trim()).filter(Boolean);
+  if (options.every(o => /^\d+$/.test(o))) {
+    // Spanish uses "u" instead of "o" before a word starting with an "o" sound (8, 11...).
+    const joined = options.reduce((text, o, i) => i === 0 ? o : `${text} ${/^(8|11)/.test(o) ? "u" : "o"} ${o}`, "");
+    return `Caja de ${joined} ${options.length === 1 && options[0] === "1" ? "unidad" : "unidades"}`;
+  }
+  if (options.length === 1 && /^\d+-\d+$/.test(options[0])) {
+    const [from, to] = options[0].split("-");
+    return `Caja de ${from} a ${to} unidades`;
+  }
+  if (options.length === 1 && /^[\d,]+\s*kg$/i.test(options[0])) return `Caja de ${options[0]}`;
+  // "C/2×0,5": two half pieces (Obach liver pâté)
+  const halves = options.length === 1 && options[0].match(/^(\d+)\s*[×x]\s*0[,.]5$/i);
+  if (halves) return `Caja de ${halves[1]} medias piezas`;
+  return `Caja: ${box.replace(/^C\//, "")}`;
+}
+
 function normalise(text) {
   return text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+}
+
+// Short name of a product for its own link: "Turrón de yema con naranja y azahar" -> "turron-de-yema-con-naranja-y-azahar"
+function productSlug(product) {
+  return normalise(product.name).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+// Address of the house page with this product already open (casa.html?c=<house>&p=<product>).
+function productUrl(house, product) {
+  const url = new URL(location.href);
+  url.search = new URLSearchParams({ c: house.slug, p: productSlug(product) }).toString();
+  url.hash = "";
+  return url.toString();
 }
 
 function renderHouse() {
@@ -143,6 +179,36 @@ function renderHouse() {
   const dialog = document.getElementById("detail");
   document.getElementById("detail-close").addEventListener("click", () => dialog.close());
   dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+  // When the detail closes, the address goes back to the house page
+  dialog.addEventListener("close", () => history.replaceState(null, "", `casa.html?c=${house.slug}`));
+  document.getElementById("detail-share").addEventListener("click", shareProduct);
+
+  // A link with a product (casa.html?c=...&p=...) opens that product straight away
+  const wanted = new URLSearchParams(location.search).get("p");
+  for (const cat of house.categories) {
+    const product = cat.products.find(p => productSlug(p) === wanted);
+    if (product) { openDetail(product, cat.name); break; }
+  }
+}
+
+// "Compartir": the phone's share menu (WhatsApp, e-mail...) or, on a computer, copy the link.
+let sharedProduct = null;
+async function shareProduct() {
+  if (!sharedProduct) return;
+  const { house, product } = sharedProduct;
+  const url = productUrl(house, product);
+  const button = document.getElementById("detail-share");
+  if (navigator.share) {
+    try { await navigator.share({ title: product.name, text: `${product.name} · ${house.name}`, url }); } catch (e) { /* cancelled */ }
+    return;
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    button.textContent = "Enlace copiado ✓";
+  } catch (e) {
+    window.prompt("Copia este enlace:", url);
+  }
+  setTimeout(() => { button.textContent = "Compartir"; }, 2500);
 }
 
 function openDetail(product, categoryName) {
@@ -154,13 +220,43 @@ function openDetail(product, categoryName) {
   document.getElementById("detail-category").textContent = categoryName;
   document.getElementById("detail-name").textContent = product.name;
   document.getElementById("detail-description").textContent = product.description || "";
-  const rows = document.getElementById("detail-formats");
-  rows.replaceChildren(...product.formats.map(f =>
-    el("tr", {}, [el("td", { text: f.label }), el("td", { text: f.size }), el("td", { text: f.box || "—" })])));
+  document.getElementById("detail-tags").replaceChildren(...(product.tags || []).map(t => el("span", { text: t })));
+
+  // Longer text (history, tasting notes). Lines like "Nota de cata: ..." get their label in bold.
+  const story = document.getElementById("detail-story");
+  story.replaceChildren(...(product.story || "").split("\n").filter(Boolean).map(line => {
+    const match = line.match(/^(Nota de cata:)\s*(.*)$/);
+    return el("p", {}, match ? [el("strong", { text: match[1] }), " " + match[2]] : line);
+  }));
+
+  const formats = document.getElementById("detail-formats");
+  document.getElementById("detail-formats-title").textContent =
+    product.formats.length > 1 ? "Presentaciones" : "Presentación";
+  // Formats with their own photo (e.g. each flavour) show a thumbnail; picking one swaps the big photo.
+  const showPhoto = (src, button) => {
+    img.src = src;
+    formats.querySelectorAll("button.flavour").forEach(b => b.setAttribute("aria-pressed", String(b === button)));
+  };
+  formats.replaceChildren(...product.formats.map(f => {
+    const text = [
+      el("strong", { text: formatChip(f) }),
+      f.box ? el("span", {}, [el("em", { text: "Formato de venta: " }), saleFormat(f.box).replace(/^C/, "c")]) : null,
+    ];
+    if (!f.image) return el("li", {}, text);
+    const button = el("button", { type: "button", class: "flavour", "aria-pressed": "false", title: "Ver foto" }, [
+      el("img", { src: f.image, alt: "", loading: "lazy" }), el("div", {}, text),
+    ]);
+    button.addEventListener("click", () => showPhoto(f.image, button));
+    return el("li", { class: "has-photo" }, button);
+  }));
   const house = window.CATALOGO.find(h => h.categories.some(c => c.products.includes(product)));
-  document.getElementById("detail-whatsapp").href =
-    whatsappLink(`Hola, me interesa ${product.name}${house ? ` de ${house.name}` : ""}. ¿Me podéis dar precio y disponibilidad?`);
-  document.getElementById("detail").showModal();
+  sharedProduct = { house, product };
+  document.getElementById("detail-whatsapp").href = whatsappLink(
+    `Hola, me interesa ${product.name} de ${house.name} (${productUrl(house, product)}). ¿Me podéis dar precio y disponibilidad?`);
+  history.replaceState(null, "", productUrl(house, product));
+  const dialog = document.getElementById("detail");
+  if (!dialog.open) dialog.showModal();
+  dialog.scrollTop = 0;
 }
 
 // "Back to top" button, shown on every page once the visitor has scrolled down.
@@ -239,7 +335,13 @@ function renderContact() {
   }
 }
 
+// Each page says which content to draw with <body data-page="...">. (No inline scripts, so the pages can use a
+// strict Content-Security-Policy that only allows our own files.)
+const PAGES = { home: () => renderHome(), house: () => renderHouse(), contact: () => renderContact() };
+
 document.addEventListener("DOMContentLoaded", () => {
+  const render = PAGES[document.body.dataset.page];
+  if (render) render();
   fillTopNav(null);
   setupMobileMenu();
   addFooterSocial();

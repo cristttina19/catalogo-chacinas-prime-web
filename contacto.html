@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contacto · Chacinas Prime</title>
   <meta name="description" content="Contacta con Chacinas Prime: WhatsApp, teléfono, correo e Instagram.">
@@ -22,7 +23,7 @@
   <link rel="stylesheet" href="css/estilo.css">
   <meta name="robots" content="noindex, nofollow">
 </head>
-<body>
+<body data-page="contact">
   <header class="top">
     <div class="wrap">
       <a class="brand" href="index.html" title="Volver al inicio"><img src="img/logos/chacinas-prime-cabecera.png" alt="Chacinas Prime"></a>
@@ -49,6 +50,5 @@
 
   <script src="js/productos.js"></script>
   <script src="js/catalogo.js"></script>
-  <script>renderContact();</script>
 </body>
 </html>

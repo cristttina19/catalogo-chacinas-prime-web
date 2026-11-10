@@ -21,6 +21,7 @@
 }
 
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }   /* the search hides cards; .card's display:flex must not undo it */
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
@@ -212,14 +213,44 @@ dialog::backdrop { background: rgba(29, 28, 26, .55); }
 .detail .info { padding: 28px 28px 24px; display: flex; flex-direction: column; gap: 10px; }
 .detail h2 { font-size: 2rem; }
 .detail .info > p { margin: 0; color: var(--ink-soft); }
-.detail table { border-collapse: collapse; width: 100%; font-size: .95rem; margin-top: 6px; }
-.detail th, .detail td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--stone-soft); }
-.detail th { color: var(--taupe); font-weight: 500; font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; }
+.detail .photo { align-self: start; position: sticky; top: 0; }
+.detail .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.detail .tags:empty, .detail .story:empty { display: none; }
+.detail .tags span {
+  font-size: .8rem; border: 1px solid var(--gold); color: var(--gold-dark); border-radius: 999px; padding: 1px 10px;
+}
+.detail .story { border-top: 1px solid var(--stone-soft); padding-top: 10px; }
+.detail .story p { margin: 0 0 8px; color: var(--ink-soft); font-size: .98rem; line-height: 1.55; }
+.detail .story strong { color: var(--ink); font-weight: 600; }
+.detail .formats-title {
+  font-family: var(--text); font-size: .85rem; font-weight: 500; color: var(--taupe);
+  text-transform: uppercase; letter-spacing: .06em; margin-top: 6px;
+}
+.format-list { list-style: none; margin: 0; padding: 0; }
+.format-list li {
+  display: flex; flex-direction: column; gap: 1px; padding: 8px 0; border-bottom: 1px solid var(--stone-soft);
+}
+.format-list li:first-child { border-top: 1px solid var(--stone-soft); }
+.format-list strong { font-weight: 600; }
+.format-list span { color: var(--ink-soft); font-size: .95rem; }
+.format-list em { font-style: normal; color: var(--taupe-dark); }
+.format-list li.has-photo { padding: 4px 0; }
+.format-list button.flavour {
+  display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; font: inherit; color: inherit;
+  background: none; border: 1px solid transparent; border-radius: var(--radius); padding: 4px 6px; cursor: pointer;
+}
+.format-list button.flavour:hover { border-color: var(--stone); }
+.format-list button.flavour[aria-pressed="true"] { border-color: var(--gold); background: var(--gold-soft); }
+.format-list button.flavour img { width: 44px; height: 44px; object-fit: contain; background: #fff; border-radius: 3px; flex: none; }
+.format-list button.flavour div { display: flex; flex-direction: column; gap: 1px; }
+/* Sticks to the top of the product detail while scrolling long texts (takes no room: negative bottom margin) */
 .close {
-  position: absolute; top: 8px; right: 10px; width: 36px; height: 36px; border-radius: 50%;
+  position: sticky; top: 8px; z-index: 5; display: block; margin: 8px 10px -44px auto;
+  width: 36px; height: 36px; border-radius: 50%; box-shadow: 0 1px 4px rgba(31, 31, 31, .15);
   border: 1px solid var(--stone); background: var(--paper); font-size: 1.3rem; cursor: pointer; color: var(--ink); line-height: 1;
 }
 .close:hover { border-color: var(--gold); }
+.close:focus-visible, .btn-share:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 .contact-note { margin-top: auto !important; font-size: .9rem; color: var(--taupe) !important; }
 
 /* ---------- Footer ---------- */
@@ -246,6 +277,8 @@ footer .links { display: flex; gap: 20px; flex-wrap: wrap; }
 .btn-outline { background: transparent; border: 1.5px solid var(--gold-dark); box-shadow: none; padding: 8.5px 20.5px; }
 .btn-outline:hover { background: var(--gold-soft); filter: none; }
 .btn-whatsapp { align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; font-size: 1rem; }
+.detail-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.btn-share { font: inherit; font-family: var(--serif); font-weight: 600; font-size: 1rem; cursor: pointer; letter-spacing: .06em; }
 
 .contact { padding: 48px 0 8px; }
 .contact h1 { font-size: 2.6rem; }
@@ -308,7 +341,8 @@ footer .social a:hover { color: var(--paper); }
   .top nav a:last-child { border-bottom: none; }
   .contact-grid { grid-template-columns: 1fr; }
   .contact h1 { font-size: 2.1rem; }
-  .house-hero .wrap { grid-template-columns: 1fr; text-align: center; gap: 16px; }
+  /* the :not(:has()) form repeats the desktop rule's selector so houses without a photo also stack */
+  .house-hero .wrap, .house-hero .wrap:not(:has(.photo)) { grid-template-columns: 1fr; text-align: center; gap: 16px; }
   .house-hero .photo { display: flex; justify-content: center; }
   .house-hero .photo img { max-height: 170px; width: auto; max-width: 85%; }
   .hero { padding: 36px 0 44px; }
@@ -329,7 +363,7 @@ footer .social a:hover { color: var(--paper); }
   .card h3 { font-size: 1.08rem; }
   .card .body { padding: 10px; }
   .detail { grid-template-columns: 1fr; }
-  .detail .photo { min-height: 220px; }
+  .detail .photo { min-height: 220px; position: static; }
   .detail .photo img { max-height: 40vh; }
   .to-top { right: 16px; bottom: 16px; }
   footer { padding-bottom: 76px; }
