@@ -564,7 +564,7 @@ window.CATALOGO = [
             "story": "Elaborada con la «contra» de la pata trasera de vacuno Wagyu seleccionado de las mejores granjas de Australia y EE. UU. Sal, un toque de humo de encina y mucho tiempo en secadero y bodega, para una textura marmórea y tierna y un sabor suave y exquisito."
           },
           {
-            "name": "Cecina de Wagyu japonesa",
+            "name": "Cecina de Wagyu Japonés",
             "description": "Pura raza Tajima. 24–36 meses de curación.",
             "image": "img/productos/casalba/cecina-de-wagyu-kobe-japon.webp",
             "formats": [
