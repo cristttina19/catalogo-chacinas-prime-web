@@ -564,7 +564,7 @@ window.CATALOGO = [
             "story": "Elaborada con la «contra» de la pata trasera de vacuno Wagyu seleccionado de las mejores granjas de Australia y EE. UU. Sal, un toque de humo de encina y mucho tiempo en secadero y bodega, para una textura marmórea y tierna y un sabor suave y exquisito."
           },
           {
-            "name": "Cecina de Wagyu Japón",
+            "name": "Cecina de Wagyu japonesa",
             "description": "Pura raza Tajima. 24–36 meses de curación.",
             "image": "img/productos/casalba/cecina-de-wagyu-kobe-japon.webp",
             "formats": [
@@ -658,7 +658,7 @@ window.CATALOGO = [
           {
             "name": "Mortadela de secreto ibérico y trufa",
             "description": "Con trufa. Pieza de 9 kg, entera o en 2 mitades. Al vacío.",
-            "image": null,
+            "image": "img/productos/casalba/mortadela-de-secreto-iberico-y-trufa.webp",
             "formats": [
               {
                 "label": "Pieza entera",
@@ -707,7 +707,7 @@ window.CATALOGO = [
           {
             "name": "Salchicha Frankfurt ibérica",
             "description": "Salchicha cocida de cerdo ibérico.",
-            "image": null,
+            "image": "img/productos/casalba/salchicha-frankfurt-iberica.webp",
             "formats": [
               {
                 "label": "Unidad",
@@ -720,7 +720,7 @@ window.CATALOGO = [
           {
             "name": "Morcilla de arroz y secreto",
             "description": "Morcilla de arroz con secreto ibérico.",
-            "image": null,
+            "image": "img/productos/casalba/morcilla-de-arroz-y-secreto.webp",
             "formats": [
               {
                 "label": "Unidad",
@@ -875,7 +875,7 @@ window.CATALOGO = [
           {
             "name": "Longaniza Seca del Pastor",
             "description": "Tipo pascua.",
-            "image": null,
+            "image": "img/productos/obach/longaniza-seca-del-pastor.webp",
             "formats": [
               {
                 "label": "Pieza",
@@ -2683,7 +2683,7 @@ window.CATALOGO = [
           {
             "name": "Tarta bautizo San Marcos",
             "description": "Tarta San Marcos decorada para bautizos.",
-            "image": null,
+            "image": "img/productos/rafa-gorrotxategi/tarta-bautizo-trufa-blanca.webp",
             "formats": [
               {
                 "label": "Tarta",
@@ -2695,7 +2695,7 @@ window.CATALOGO = [
           {
             "name": "Tarta comunión trufa blanca",
             "description": "Tarta de mousse de trufa blanca decorada para comuniones.",
-            "image": null,
+            "image": "img/productos/rafa-gorrotxategi/tarta-comunion-san-marcos.webp",
             "formats": [
               {
                 "label": "Tarta",
@@ -2755,7 +2755,7 @@ window.CATALOGO = [
           {
             "name": "Tarta San Marcos nata y trufa",
             "description": "La clásica tarta San Marcos, con nata y trufa.",
-            "image": null,
+            "image": "img/productos/rafa-gorrotxategi/tarta-san-marcos-nata-y-trufa.webp",
             "formats": [
               {
                 "label": "Tarta",
@@ -2934,7 +2934,7 @@ window.CATALOGO = [
           {
             "name": "Lingote de chocolate y frambuesa",
             "description": "Mousse de trufa negra sobre sablé.",
-            "image": null,
+            "image": "img/productos/rafa-gorrotxategi/lingote-de-chocolate-y-frambuesa.webp",
             "formats": [
               {
                 "label": "Estuche 12 uds",
