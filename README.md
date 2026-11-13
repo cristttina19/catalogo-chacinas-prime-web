@@ -1,7 +1,7 @@
-# Catálogo Chacinas Prime
+# Web de Chacinas Prime
 
-Web del catálogo de productos de Chacinas Prime.
+Web de Chacinas Prime: empresa y catálogo de productos.
 
-Publicada en https://cristttina19.github.io/catalogo-chacinas-prime-web/
+Publicada en https://cristttina19.github.io/chacinas-prime/
 
 Esta copia se genera automáticamente: no la edites aquí.
